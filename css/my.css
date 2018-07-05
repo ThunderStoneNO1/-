@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url("base.css");
+.bottom {
+  width: 7.5rem;
+  height: 13.34rem;
+  background-image: -webkit-linear-gradient(-135deg, #fc1c80, #b24ff1);
+  overflow: hidden;
+  /*顶部开始*/
+  /*用户信息开始*/ }
+  .bottom .title {
+    width: 1.52rem;
+    height: 0.36rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.28rem;
+    color: #fff;
+    line-height: 0.36rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-weight: bold; }
+    .bottom .title .p {
+      width: 0.05rem;
+      height: 0.05rem;
+      border-radius: 50%;
+      background: #fff;
+      float: left;
+      margin-top: 0.17rem; }
+    .bottom .title .p1 {
+      width: 0.05rem;
+      height: 0.05rem;
+      border-radius: 50%;
+      background: #fff;
+      float: right;
+      margin-top: 0.17rem; }
+  .bottom .engtitle {
+    width: 2.53rem;
+    height: 0.28rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.28rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0.57rem;
+    font-weight: bold; }
+  .bottom .username {
+    width: 2.01rem;
+    height: 0.48rem;
+    position: absolute;
+    top: 1.56rem;
+    right: 2.48rem; }
+    .bottom .username .name1 {
+      color: #fff;
+      font-size: 0.24rem;
+      text-align: right;
+      display: block;
+      font-weight: bold; }
+    .bottom .username .name2 {
+      color: #fff;
+      font-size: 0.24rem;
+      text-align: right;
+      display: block;
+      margin-top: 0.11rem;
+      font-weight: bold; }
+  .bottom .mypic {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0.1rem 0.1rem rgba(31, 13, 233, 0.2);
+    position: absolute;
+    top: 1.31rem;
+    right: 0.68rem; }
+    .bottom .mypic img {
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%; }
+  .bottom .share {
+    width: 0.41rem;
+    height: 0.41rem;
+    border-radius: 50%;
+    background: #f9df30;
+    position: absolute;
+    top: 2.46rem;
+    right: 0.65rem;
+    box-shadow: 0rem 0rem 0.1rem 0.08rem rgba(228, 161, 0, 0.3); }
+    .bottom .share .icon-shuxie {
+      font-size: 0.16rem;
+      color: #fff;
+      line-height: 0.41rem;
+      text-align: center;
+      display: block; }
+
+/*下半部分*/
+.bot {
+  width: 7.19rem;
+  height: 10.63rem;
+  background-image: url("../img/tu.png");
+  background-size: 100% 100%;
+  margin-top: 2.5rem;
+  margin-left: 0.17rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+.fromxi {
+  width: 2.99rem;
+  height: 0.94rem;
+  float: right;
+  margin-top: 1.24rem;
+  margin-right: 0.24rem; }
+
+.fromxi span:nth-child(1) {
+  font-size: 0.3rem;
+  color: #22b0fc;
+  text-align: right;
+  display: block;
+  font-weight: bold; }
+
+.fromxi span:nth-child(2) {
+  font-size: 0.17rem;
+  color: #22b0fc;
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 0.07rem; }
+
+.fromxi span:nth-child(3) {
+  font-size: 0.23rem;
+  color: #383f42;
+  text-align: right;
+  display: block;
+  font-weight: bold;
+  margin-top: 0.16rem; }
+
+/*作品*/
+.zuopin {
+  width: 6.83rem;
+  height: 8.05rem;
+  margin-top: 2.58rem; }
+
+.total {
+  width: 100%;
+  height: 1.23rem; }
+  .total .lis {
+    width: 2.2rem;
+    height: 1.23rem;
+    margin-right: 0.1rem;
+    float: left;
+    padding-left: 0.17rem;
+    box-sizing: border-box;
+    overflow: hidden; }
+    .total .lis .foc {
+      width: 1.68rem;
+      height: 0.35rem;
+      margin-top: 0.39rem;
+      overflow: hidden; }
+      .total .lis .foc .peonum {
+        font-size: 0.35rem;
+        color: #ff2888;
+        display: block;
+        float: left;
+        margin-right: 0.12rem;
+        font-weight: bold; }
+      .total .lis .foc .guan {
+        font-size: 0.26rem;
+        color: #7ad0fd;
+        display: block;
+        float: left;
+        margin-top: 0.1rem;
+        font-weight: bold; }
+    .total .lis .photo {
+      width: 2rem;
+      height: 0.35rem; }
+      .total .lis .photo .phnum {
+        font-size: 0.22rem;
+        color: #565eff;
+        line-height: 0.35rem;
+        display: block;
+        float: left; }
+      .total .lis .photo .ph {
+        font-size: 0.22rem;
+        color: #565eff;
+        line-height: 0.35rem;
+        display: block;
+        margin-right: 0.08rem;
+        float: left; }
+  .total .lis:last-child {
+    margin-right: 0; }
+
+.myzuopin {
+  width: 6.71rem;
+  height: 6.4rem;
+  margin-top: 0.4rem; }
+
+.zuotop {
+  width: 100%;
+  height: 0.57rem; }
+  .zuotop .tit {
+    font-size: 0.3rem;
+    color: #f81f86;
+    margin-bottom: 0.09rem;
+    font-weight: bold; }
+  .zuotop .tite {
+    font-size: 0.24rem;
+    color: #565eff; }
+
+.zuobottom {
+  width: 100%;
+  height: 5.83rem; }
+  .zuobottom .zuoda {
+    width: 100%;
+    height: 1.16rem;
+    border-bottom: 0.01rem dashed #c3c3c3;
+    padding-left: 0.04rem;
+    padding-top: 0.31rem;
+    box-sizing: border-box; }
+    .zuobottom .zuoda .content {
+      width: 3rem;
+      height: 0.62rem; }
+      .zuobottom .zuoda .content .contop {
+        font-size: 0.25rem;
+        color: #89919e;
+        font-weight: 400;
+        margin-bottom: 0.21rem; }
+      .zuobottom .zuoda .content .conbot {
+        font-size: 0.24rem;
+        color: #d6d6d6; }
+  .zuobottom .zuoda:last-child {
+    border-bottom: none; }
