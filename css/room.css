@@ -1,0 +1,82 @@
+@import url("base.css");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: url("../img/roomBg.png") no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+#room {
+  width: 7.5rem;
+  height: 13.34rem;
+  overflow: hidden; }
+  #room header {
+    width: 100%;
+    height: 0.8rem;
+    overflow: hidden; }
+    #room header .icon {
+      width: 0.38rem;
+      height: 0.38rem;
+      margin: 0.22rem 0.24rem;
+      float: left; }
+      #room header .icon img {
+        width: 100%;
+        height: 100%; }
+    #room header span {
+      display: block;
+      font-size: 0.34rem;
+      color: #ffffff;
+      text-align: center;
+      line-height: 0.8rem; }
+
+.two-dimensionCode {
+  width: 5rem;
+  height: 5rem;
+  margin: 2.7rem auto 0;
+  position: relative; }
+  .two-dimensionCode img {
+    width: 100%;
+    height: 100%; }
+  .two-dimensionCode .code {
+    width: 2.66rem;
+    height: 2.66rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.33rem; }
+    .two-dimensionCode .code img {
+      width: 100%;
+      height: 100%; }
+  .two-dimensionCode .network {
+    width: 3.05rem;
+    height: 3.05rem;
+    position: absolute;
+    top: 1rem;
+    left: 1.15rem; }
+  .two-dimensionCode img {
+    width: 100%;
+    height: 100%; }
+
+.sweep {
+  width: 3.4rem;
+  height: 0.88rem;
+  border-radius: 1rem;
+  background: #f3f3f3;
+  margin: 2.8rem auto;
+  overflow: hidden; }
+  .sweep .circle {
+    width: 3.12rem;
+    height: 0.6rem;
+    border-radius: 1rem;
+    background: #ffffff;
+    box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.3);
+    margin: 0.15rem auto;
+    font-size: 0.28rem;
+    color: #f22a8d;
+    text-align: center;
+    line-height: 0.6rem; }
