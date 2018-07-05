@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 @import url("base.css");
 .product{
   width:100%;
   height:13.06rem;
+=======
+@import url('base.css');
+.product{
+  width:100%;
+  height:auto;
+>>>>>>> Stashed changes
   background-image:linear-gradient(-135deg,#da31e9,#ff318d 40%);
   overflow: hidden;
 }
@@ -65,4 +72,237 @@
       line-height:0.47rem ;
     }
   }
+<<<<<<< Updated upstream
+=======
+}
+.dibu{
+  width: 100%;
+  height: 11.9rem;
+  background-image: url("../img/hu2.png");
+  background-size: 100% 100%;
+  margin-top: 0.22rem;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  box-sizing: border-box;
+  ul{
+    width: 100%;
+    height:8.55rem;
+    padding-top:0.9rem;
+    li{
+      width:100%;
+      height:2.67rem;
+      //background: yellow;
+      border-bottom: 1px  dashed #bab9b9;
+      position:relative;
+      .juice{
+        width: 3.51rem;
+        height:2.57rem;
+        float:left;
+      }
+      .juiceinfor{
+        width: 3.49rem;
+        height:100%;
+        float:left;
+        padding-top: 0.4rem;
+        box-sizing: border-box;
+        .jutop span{
+          font-size: 0.24rem;
+          color:#575861;
+          display: block;
+          float: left;
+          line-height: 0.39rem;
+        }
+        .jutop img{
+          display: block;
+          float: left;
+          width: 0.94rem;
+          height:0.38rem;
+        }
+        .jutop{
+          height:0.39rem;
+        }
+        .waizi{
+          margin-top: 0.19rem;
+          font-size: 0.18rem;
+          color:#ff326c;
+        }
+        .del{
+          width: 0.35rem;
+          height:0.35rem;
+          border-radius: 50%;
+          background: #dcdcdc;
+          color:#fff;
+          text-align: center;
+          line-height: 0.35rem;
+          display: block;
+          float:left;
+          font-size: 0.15rem;
+          margin-right: 0.14rem;
+          margin-top: 0.02rem;
+        }
+        .adde{
+          width: 0.35rem;
+          height:0.35rem;
+          border-radius: 50%;
+          background: #33affe;
+          color:#fff;
+          text-align: center;
+          line-height: 0.35rem;
+          display: block;
+          float:left;
+          font-size: 0.15rem;
+          margin-top: 0.02rem;
+        }
+        .count{
+          width:0.81rem;
+          height: 0.36rem;
+          background: #fff;
+          border: 2px solid #dcdcdc;
+          font-size: 0.19rem;
+          color:#858585;
+          text-align: center;
+          line-height: 0.38rem;
+          display: block;
+          float:left;
+          border-radius: 0.18rem;
+          margin-right: 0.14rem;
+          font-weight: bold;
+        }
+        .jubot{
+          height: 0.9rem;
+          padding:0.02rem;
+          margin-top: 0.2rem;
+        }
+      }
+      .one,.two{
+        width:1px;
+        height: 1px;
+        background: #000000;
+      }
+      .one{
+        position: absolute;
+        left:0;
+        bottom:-0.02rem;
+      }
+      .two{
+        position: absolute;
+        right:0;
+        bottom:-0.02rem;
+      }
+    }
+  }
+/*已选*/
+  .already{
+    width: 100%;
+    margin-top: 0.5rem;
+    height:0.44rem;
+        .alxuan{
+          font-size: 0.28rem;
+          color:#3b3b3b;
+          display: block;
+          float:left;
+          margin-top: 0.08rem;
+          margin-right: 0.31rem;
+        }
+    .xuan1{
+      width:2.04rem;
+      height:0.44rem;
+      border-radius: 0.08rem;
+      border:0.01rem solid #e12c7e;
+      background: #ff318e;
+      text-align: center;
+      line-height: 0.4rem;
+      color:#fff;
+      font-size: 0.24rem;
+      float: left;
+      margin-right: 0.19rem;
+    }
+    .xuan2{
+      width:1.58rem;
+      height:0.44rem;
+      border-radius: 0.08rem;
+      border:0.01rem solid #e12c7e;
+      background: #ff318e;
+      text-align: center;
+      line-height: 0.4rem;
+      color:#fff;
+      font-size: 0.24rem;
+      float: left;
+      margin-right: 0.19rem;
+    }
+    .xuan3{
+      width:1.44rem;
+      height:0.44rem;
+      border-radius: 0.08rem;
+      border:0.01rem solid #e12c7e;
+      background: #ff318e;
+      text-align: center;
+      line-height: 0.4rem;
+      color:#fff;
+      font-size: 0.24rem;
+      float: left;
+    }
+    .circle{
+      width:0.42rem;
+      height: 0.08rem;
+      float: right;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.16rem;
+      p{
+        width: 0.08rem;
+        height: 0.08rem;
+        border-radius: 50%;
+        background: #ff83bb;
+      }
+    }
+
+  }
+  .numprice{
+    float:left;
+    font-size: 0.32rem;
+    color:#fa3c72;
+    height:0.39rem;
+    width: 2.27rem;
+    margin-top: 0.7rem;
+  }
+  .aniu{
+    width: 3.58rem;
+    height:0.83rem;
+    float:right;
+    background-image: url("../img/anniu.png");
+    background-size: 100% 100%;
+    margin-top: 0.55rem;
+    padding:0.26rem 0.98rem;
+    box-sizing: border-box;
+    span{
+      font-size: 0.3rem;
+      color:#fff;
+      display: block;
+      float: left;
+      margin-right: 0.23rem;
+    }
+    &:before{
+      content:"";
+      display:block;
+      width:0.08rem;
+      height:0.08rem;
+      background:#fff;
+      border-radius: 50%;
+      float: left;
+      margin-top: 0.14rem;
+      margin-right: 0.32rem;
+    }
+    &:after{
+      content:"";
+      display:block;
+      width:0.08rem;
+      height:0.08rem;
+      background:#fff;
+      border-radius: 50%;
+      float: left;
+      margin-top: 0.14rem;
+    }
+  }
+>>>>>>> Stashed changes
 }
