@@ -1,0 +1,79 @@
+@import url('base.css');
+$width:7.5rem;
+$hight:0.88rem;
+$background:#FE3490;
+$color:#fff;
+body{
+	background-image:url("../img/body.png");
+	background-size: 7.5rem auto;
+}
+/*头部*/
+header{
+	padding: 0 0.24rem;
+	font-size:0.32rem;
+	width:$width;
+	height:$hight;
+	//background-image: -webkit-linear-gradient(-45deg,#DB34E6,#fc378d);
+	//background-image: linear-gradient(-45deg,#fb37ca,#fc378d);
+	color:$color;
+	line-height: 0.88rem;
+	text-align: center;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+header .iconfont{
+	display: block;
+	width: 0.40rem;
+	height: 0.40rem;
+	margin-left:0.24rem;
+	font-size: 0.38rem;
+	text-align: center;
+	line-height: 0.40rem;
+	position: absolute;
+    top:50%;
+	left:0;
+	margin-top: -0.20rem;
+}
+//主题
+nav{
+	margin-top: 1.06rem;
+	width: $width;
+	padding:0 0.24rem;
+	overflow: hidden;
+}
+#list{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#list li{
+	width: 3.02rem;
+	height: 3.02rem;
+	padding:0.25rem 0;
+	box-sizing: border-box;
+	margin-top: 0.52rem;
+
+}
+#list .con{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#list li a{
+	display: block;
+	width: 2.03rem;
+	height: 1.68rem;
+}
+#list li a img{
+	width: 2.03rem;
+	height: 1.68rem;
+}
+#list li span{
+	font-size: 0.24rem;
+	text-align: center;
+}

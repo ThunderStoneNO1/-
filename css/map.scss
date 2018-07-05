@@ -1,0 +1,134 @@
+@import url('base.css');
+$width:7.5rem;
+$hight:0.88rem;
+$color:#fff;
+/*头部*/
+body{
+  background:url("../img/map5.png") no-repeat;
+  background-size: 7.5rem auto;
+}
+header{
+  padding: 0 0.24rem;
+  font-size:0.32rem;
+  width:$width;
+
+  height:$hight;
+  //background-image: -webkit-linear-gradient(top,#27374D,#50596C);
+  color:$color;
+  line-height: 0.88rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+header .iconfont{
+  display: block;
+  width: 0.40rem;
+  height: 0.40rem;
+  margin-left:0.24rem;
+  font-size: 0.38rem;
+  text-align: center;
+  line-height: 0.40rem;
+  position: absolute;
+  top:50%;
+  left:0;
+  margin-top: -0.20rem;
+}
+header input{
+  display: block;
+  padding-left: 0.20rem;
+  width: 6.2rem;
+  height: 0.68rem;
+  font-size: 0.32rem;
+  margin-left: 1.0rem;
+  border-radius: 0.12rem;
+  border:0.02rem solid #586375;
+  background: #414C5F;
+  color: #fff;
+}
+::-webkit-input-placeholder{
+  font-size: 0.32rem;
+  line-height: 0.68rem;
+  color: #fff;
+}
+nav{
+  width: 100%;
+  height: 10.5rem;
+}
+footer{
+  width: 100%;
+  height: 2.0rem;
+  margin-top:0.3rem;
+  //background: aqua;
+  padding:0 0.24rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .pic{
+  width: 1.83rem;
+  height: 1.80rem;
+
+}
+footer .pic a{
+  display: block;
+  width: 1.83rem;
+  height: 1.80rem;
+  display: flex;
+  align-items: center;
+}
+footer .pic img{
+  width: 1.70rem;
+  border-radius: 50%;
+}
+footer .part{
+  width: 4.80rem;
+  font-size: 0.28rem;
+  height: 1.80rem;
+  padding:0.1rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer .part .order{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a{
+    display: block;
+    button{
+      width: 1.56rem;
+      height: 0.35rem;
+      text-align: center;
+      line-height: 0.36rem;
+      border-radius: 0.18rem;
+      font-size: 0.24rem;
+      background: #FF348E;
+      color: #fff;
+    }
+  }
+  span{
+    font-size: 0.32rem;
+    color: #FFCF2B;
+  }
+}
+footer .part .me{
+  font-weight: bold;
+  font-size: 0.30rem;
+  float: left;
+}
+footer .part .distance{
+  float: right;
+}
+.head{
+  line-height: 0.6rem;
+  border-bottom: 1px solid #FF7C7C;
+}
+.head-x{
+  color: #969696;
+  span{
+    color: #8D8D8D;
+  }
+}
