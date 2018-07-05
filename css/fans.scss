@@ -1,0 +1,210 @@
+@import url("base.css");
+$width:7.50rem;
+*{
+  list-style: none;
+}
+#fans{
+  width:$width ;
+  height: auto;
+  header{
+    width:$width ;
+    height: 3.13rem;
+    background: url("../img/wdfs-bg.png") no-repeat ;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    .fansbox{
+      width: 100%;
+      height: 0.52rem;
+      margin-top: 0.87rem;
+      position: relative;
+      .icon1>a>i{
+        display: block;
+        font-size: 0.38rem;
+        float:left;
+        color:#fff;
+        margin-top: 1px;
+      }
+      .txt{
+        width: 2rem;
+        text-align: center;
+        font-size: 0.26rem;
+        color:#fff;
+        margin-left: 2.53rem;
+        position: relative;
+        .dian{
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          left:0;
+          top:0;
+          bottom:0;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+        .dian1{
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          right:0;
+          top:0;
+          bottom:0;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+      }
+      .icon2{
+        float:right;
+        height: 0.52rem;
+        width: 0.52rem;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border:0.02rem solid #e56dee;
+        position: absolute;
+        top:0;
+        right:0;
+        .baise{
+          width: 0.44rem;
+          height: 0.44rem;
+          background: #fff;
+          margin:0.02rem auto;
+          border-radius: 50%;
+          i{
+            display: block;
+            line-height: 0.44rem;
+            text-align: center;
+            font-size: 0.26rem;
+            color:#dd31e0;
+          }
+        }
+      }
+    }
+  }
+  section{
+    width: $width;
+    height: auto;
+    position: relative;
+    .top{
+      margin-top:-1.5rem;
+      height: 1.5rem;
+      img{
+        width: 100%;
+      }
+    }
+    .ce{
+      width: 0.36rem;
+      height: 10rem;
+      background: #f3f3f3;
+      position: absolute;
+      top:1rem;
+      right: 0;
+      display: flex;
+      flex-direction:column;
+      box-sizing: border-box;
+      padding-top: 0.2rem;
+      a{
+        display: block;
+        font-size: 0.18rem;
+        color:#646464;
+        text-align: center;
+        margin-bottom:0.14rem;
+      }
+    }
+  }
+  .fanspeople{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    li{
+      width: 100%;
+      height: 0.98rem;
+      padding: 0 0.22rem;
+      box-sizing: border-box;
+      display: flex;
+      margin-bottom: 0.32rem;
+      .touxiang{
+        width: 0.98rem;
+        height: 0.98rem;
+        position: relative;
+        .man{
+          position: absolute;
+          width: 0.20rem;
+          height: 0.20rem;
+          border-radius: 50%;
+          background: #4bdbff;
+          top:0.05rem;
+          left:0.05rem;
+          border: 0.01rem solid #fff;
+          i{
+            font-size: 0.16rem;
+            text-align: center;
+            line-height: 0.20rem;
+            color:#fff;
+            display: block;
+          }
+        }
+        .touxiangbox{
+          width:0.96rem ;
+          height: 0.96rem;
+          border-radius: 50%;
+          border: 0.01rem dotted #7f7fdc;
+          .son{
+            width: 0.83rem;
+            height: 0.83rem;
+            border-radius: 50%;
+            margin:0.06rem auto;
+            background: blue;
+            overflow: hidden;
+          }
+        }
+      }
+      .wenben{
+        width: 5.70rem;
+        height: 0.54rem;
+        margin:0.22rem 0 0.22rem 0.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+          height: 0.24rem;
+          font-size: 0.24rem;
+          color:#595959;
+          font-weight: normal;
+          span{
+            float:left;
+          }
+          .xingxing{
+            display: block;
+            float: left;
+            margin-left: 0.2rem;
+            height: 100%;
+            i{
+              line-height: 0.24rem;
+              color:yellow;
+              display: block;
+              float: left;
+              margin-right: 0.05rem;
+              border: 0.01rem solid #fff;
+            }
+          }
+        }
+        p{
+          font-size: 0.16rem;
+          color:#aaaaaa;
+          height: 0.24rem;
+          line-height:0.24rem ;
+          overflow: hidden;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+          a>span{
+            color:#aaaaaa;
+          }
+        };
+      }
+    }
+  }
+}
