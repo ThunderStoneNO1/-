@@ -1,0 +1,180 @@
+@import url("base.css");
+* {
+  list-style: none; }
+
+#fans {
+  width: 7.5rem;
+  height: auto; }
+  #fans header {
+    width: 7.5rem;
+    height: 3.13rem;
+    background: url("../img/wdfs-bg.png") no-repeat;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden; }
+    #fans header .fansbox {
+      width: 100%;
+      height: 0.52rem;
+      margin-top: 0.87rem;
+      position: relative; }
+      #fans header .fansbox .icon1 > a > i {
+        display: block;
+        font-size: 0.38rem;
+        float: left;
+        color: #fff;
+        margin-top: 1px; }
+      #fans header .fansbox .txt {
+        width: 2rem;
+        text-align: center;
+        font-size: 0.26rem;
+        color: #fff;
+        margin-left: 2.53rem;
+        position: relative; }
+        #fans header .fansbox .txt .dian {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto; }
+        #fans header .fansbox .txt .dian1 {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto; }
+      #fans header .fansbox .icon2 {
+        float: right;
+        height: 0.52rem;
+        width: 0.52rem;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 0.02rem solid #e56dee;
+        position: absolute;
+        top: 0;
+        right: 0; }
+        #fans header .fansbox .icon2 .baise {
+          width: 0.44rem;
+          height: 0.44rem;
+          background: #fff;
+          margin: 0.02rem auto;
+          border-radius: 50%; }
+          #fans header .fansbox .icon2 .baise i {
+            display: block;
+            line-height: 0.44rem;
+            text-align: center;
+            font-size: 0.26rem;
+            color: #dd31e0; }
+  #fans section {
+    width: 7.5rem;
+    height: auto;
+    position: relative; }
+    #fans section .top {
+      margin-top: -1.5rem;
+      height: 1.5rem; }
+      #fans section .top img {
+        width: 100%; }
+    #fans section .ce {
+      width: 0.36rem;
+      height: 10rem;
+      background: #f3f3f3;
+      position: absolute;
+      top: 1rem;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding-top: 0.2rem; }
+      #fans section .ce a {
+        display: block;
+        font-size: 0.18rem;
+        color: #646464;
+        text-align: center;
+        margin-bottom: 0.14rem; }
+  #fans .fanspeople {
+    width: 100%;
+    height: auto;
+    background: #fff; }
+    #fans .fanspeople li {
+      width: 100%;
+      height: 0.98rem;
+      padding: 0 0.22rem;
+      box-sizing: border-box;
+      display: flex;
+      margin-bottom: 0.32rem; }
+      #fans .fanspeople li .touxiang {
+        width: 0.98rem;
+        height: 0.98rem;
+        position: relative; }
+        #fans .fanspeople li .touxiang .man {
+          position: absolute;
+          width: 0.20rem;
+          height: 0.20rem;
+          border-radius: 50%;
+          background: #4bdbff;
+          top: 0.05rem;
+          left: 0.05rem;
+          border: 0.01rem solid #fff; }
+          #fans .fanspeople li .touxiang .man i {
+            font-size: 0.16rem;
+            text-align: center;
+            line-height: 0.20rem;
+            color: #fff;
+            display: block; }
+        #fans .fanspeople li .touxiang .touxiangbox {
+          width: 0.96rem;
+          height: 0.96rem;
+          border-radius: 50%;
+          border: 0.01rem dotted #7f7fdc; }
+          #fans .fanspeople li .touxiang .touxiangbox .son {
+            width: 0.83rem;
+            height: 0.83rem;
+            border-radius: 50%;
+            margin: 0.06rem auto;
+            background: blue;
+            overflow: hidden; }
+      #fans .fanspeople li .wenben {
+        width: 5.70rem;
+        height: 0.54rem;
+        margin: 0.22rem 0 0.22rem 0.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        #fans .fanspeople li .wenben h2 {
+          height: 0.24rem;
+          font-size: 0.24rem;
+          color: #595959;
+          font-weight: normal; }
+          #fans .fanspeople li .wenben h2 span {
+            float: left; }
+          #fans .fanspeople li .wenben h2 .xingxing {
+            display: block;
+            float: left;
+            margin-left: 0.2rem;
+            height: 100%; }
+            #fans .fanspeople li .wenben h2 .xingxing i {
+              line-height: 0.24rem;
+              color: yellow;
+              display: block;
+              float: left;
+              margin-right: 0.05rem;
+              border: 0.01rem solid #fff; }
+        #fans .fanspeople li .wenben p {
+          font-size: 0.16rem;
+          color: #aaaaaa;
+          height: 0.24rem;
+          line-height: 0.24rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+          #fans .fanspeople li .wenben p a > span {
+            color: #aaaaaa; }

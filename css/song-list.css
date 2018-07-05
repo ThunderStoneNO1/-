@@ -1,0 +1,150 @@
+@import url("base.css");
+#song-list {
+  width: 7.5rem; }
+
+.song-list-banner {
+  width: 100%;
+  height: 4rem;
+  background: url("../img/song-list1.png") no-repeat top center/100% auto;
+  padding: 0.15rem 0.24rem;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  .song-list-banner .title {
+    width: 100%;
+    height: 0.88rem;
+    background-color: transparent;
+    font-size: 0.33rem;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    left: 0; }
+    .song-list-banner .title p {
+      text-align: center;
+      line-height: 0.88rem; }
+    .song-list-banner .title a {
+      display: block;
+      width: 0.4rem;
+      height: 0.4rem;
+      position: absolute;
+      top: 0.24rem;
+      left: 0; }
+    .song-list-banner .title i {
+      display: block;
+      width: 0.4rem;
+      height: 0.4rem;
+      background: url("../img/singer-list-back.png") no-repeat center center/100% auto; }
+  .song-list-banner .singerDetail {
+    width: 100%;
+    height: 1.90rem;
+    overflow: hidden; }
+    .song-list-banner .singerDetail .singerPic {
+      width: 1.67rem;
+      height: 1.72rem;
+      background: url("../img/singerBj.png") no-repeat center center/100% auto;
+      margin-top: 0.12rem;
+      float: left; }
+      .song-list-banner .singerDetail .singerPic .singerHead {
+        width: 1.45rem;
+        height: 1.37rem;
+        background: no-repeat top center/100% auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0.2rem; }
+    .song-list-banner .singerDetail .singerRight {
+      width: 4.77rem;
+      height: 100%;
+      float: right; }
+      .song-list-banner .singerDetail .singerRight .singerName {
+        width: 100%;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        font-size: 0.26rem;
+        color: #fff;
+        font-weight: 500; }
+      .song-list-banner .singerDetail .singerRight .singerCon {
+        width: 100%;
+        height: 0.5rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 0.01rem dashed #fff; }
+        .song-list-banner .singerDetail .singerRight .singerCon .songicon {
+          display: block;
+          float: left;
+          width: 0.26rem;
+          height: 0.26rem;
+          margin-top: 0.05rem;
+          background: url("../img/songicon.png") no-repeat center center/100% auto; }
+        .song-list-banner .singerDetail .singerRight .singerCon p {
+          float: left;
+          padding-left: 0.2rem;
+          font-size: 0.24rem;
+          color: #fff; }
+        .song-list-banner .singerDetail .singerRight .singerCon .songMV {
+          display: block;
+          float: left;
+          width: 0.26rem;
+          height: 0.26rem;
+          margin-top: 0.05rem;
+          margin-left: 0.4rem;
+          background: url("../img/songMV.png") no-repeat center center/100% auto; }
+      .song-list-banner .singerDetail .singerRight .singerFooter {
+        width: 100%;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        font-size: 0.26rem;
+        color: #ffffff; }
+
+.middle {
+  width: 7.6rem;
+  height: 0.65rem;
+  background: url("../img/song-list2.png") no-repeat top left/100% auto;
+  position: fixed;
+  top: 3.4rem;
+  left: 0; }
+
+.singer-songList {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  padding: 0 0.24rem; }
+  .singer-songList .songList {
+    width: 100%;
+    height: 1.18rem;
+    padding: 0.3rem 0.05rem 0;
+    box-sizing: border-box;
+    border-bottom: 0.01rem dashed #a8aeb8; }
+    .singer-songList .songList p {
+      width: 0.5rem;
+      height: 100%;
+      font-size: 0.3rem;
+      color: #f73c5f;
+      float: left;
+      margin-top: 0.01rem; }
+    .singer-songList .songList .songName {
+      width: 4rem;
+      height: 100%;
+      font-size: 0.3rem;
+      color: #a8aeb8;
+      float: left; }
+      .singer-songList .songList .songName h1, .singer-songList .songList .songName h2 {
+        font-size: 0.3rem;
+        line-height: 0.4rem; }
+      .singer-songList .songList .songName h2 {
+        font-size: 0.24rem;
+        color: #c6c6c6; }
+    .singer-songList .songList .songAdd {
+      float: right;
+      width: 0.47rem;
+      height: 0.47rem;
+      background: url("../img/songAdd.png") no-repeat center center/100% auto; }
+    .singer-songList .songList .songAgain {
+      width: 1.18rem;
+      background-image: url("../img/songAgain.png");
+      font-size: 0.24rem;
+      color: #fb7098;
+      text-align: center;
+      line-height: 0.47rem;
+      font-weight: 600; }
