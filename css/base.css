@@ -51,6 +51,7 @@ img{
 	display: block;
 }
 *{
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     margin:0;
     padding:0;
@@ -66,3 +67,8 @@ html{
 	font-family:苹方 , "Microsoft YaHei" , 宋体 , sans-serif  ;
 }
 >>>>>>> ffdd41b4d93db735ffdc1c7f95a9ce486c4da9ad
+=======
+	font-family:苹方 , "Microsoft YaHei" , 宋体 , sans-serif  ;
+}
+
+>>>>>>> Stashed changes
