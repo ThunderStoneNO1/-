@@ -2,7 +2,7 @@
 #Alredy-point {
   width: 7.5rem;
   height: 13.34rem;
-  background-image: -webkit-linear-gradient(0deg, #fc3790, #fb37c9); }
+  background: #f7f7f7; }
   #Alredy-point header {
     width: 100%;
     padding: 0.48rem 0.24rem 0;
@@ -29,10 +29,18 @@
     #Alredy-point header p {
       font-size: 0.32rem;
       color: #fff; }
+  #Alredy-point .img {
+    width: 7.5rem;
+    height: 1.6rem;
+    overflow: hidden;
+    position: fixed;
+    top: 1rem;
+    left: 0;
+    z-index: 1000; }
+    #Alredy-point .img img {
+      width: 7.5rem; }
   #Alredy-point main {
     width: 100%;
-    background: url(../img/listbg.png) no-repeat center top;
-    background-size: contain;
     overflow: hidden;
     margin-top: 1.94rem; }
     #Alredy-point main ul {
@@ -50,19 +58,22 @@
         #Alredy-point main ul li .imgbox {
           width: 1.16rem;
           height: 1.16rem;
-          background: url("../img/ingbg.png") no-repeat;
-          background-size: cover;
+          background: url("../img/ingbg.png") no-repeat center;
+          background-size: contain;
           position: relative; }
-          #Alredy-point main ul li .imgbox #imgname {
-            width: 90%;
-            height: 90%;
+          #Alredy-point main ul li .imgbox .imgboxl {
+            width: 1.1rem;
+            height: 1.1rem;
             border-radius: 0.2rem;
             position: absolute;
             top: 0;
             bottom: 0;
             margin-top: auto;
             margin-bottom: auto;
-            left: 0; }
+            left: 0;
+            overflow: hidden; }
+            #Alredy-point main ul li .imgbox .imgboxl #imgname {
+              width: 1.10rem; }
         #Alredy-point main ul li .text {
           margin-left: 0.4rem; }
           #Alredy-point main ul li .text p:first-child {
