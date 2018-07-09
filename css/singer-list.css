@@ -90,6 +90,10 @@
     height: 3.52rem;
     float: left;
     margin-right: 0.25rem; }
+    .singer-list-con .con-list a {
+      display: block;
+      width: 100%;
+      height: 100%; }
     .singer-list-con .con-list img {
       display: block;
       width: 100%;

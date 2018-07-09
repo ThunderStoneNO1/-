@@ -129,6 +129,11 @@
       font-size: 0.3rem;
       color: #a8aeb8;
       float: left; }
+      .singer-songList .songList .songName a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #a8aeb8; }
       .singer-songList .songList .songName h1, .singer-songList .songList .songName h2 {
         font-size: 0.3rem;
         line-height: 0.4rem; }
