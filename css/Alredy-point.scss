@@ -7,7 +7,7 @@ $bgcolor:-webkit-linear-gradient(0deg,#fc3790,#fb37c9);
 #Alredy-point{
   width: $width;
   height: $height;
-  background-image: $bgcolor;
+  background: #f7f7f7;
   header{
       width:100%;
       padding:0.48rem 0.24rem 0;
@@ -38,10 +38,23 @@ $bgcolor:-webkit-linear-gradient(0deg,#fc3790,#fb37c9);
         color: #fff;
       }
   }
+  .img{
+    width: $width ;
+    height:1.6rem;
+    overflow: hidden;
+    position: fixed;
+    top: 1rem;
+    left: 0;
+    z-index: 1000;
+    img{
+      width: $width ;
+
+    }
+  }
   main{
     width: 100%;
-    background: url(../img/listbg.png) no-repeat center top;
-    background-size: contain;
+    //background: url(../img/listbg.png) no-repeat center top;
+    //background-size: contain;
     overflow: hidden;
     margin-top: 1.94rem;
     ul{
@@ -50,22 +63,24 @@ $bgcolor:-webkit-linear-gradient(0deg,#fc3790,#fb37c9);
       box-sizing: border-box;
       margin-top: 1.08rem;
       background: #f7f7f7;
-      li{
-        width: 100%;
-        height: 1.5rem;
-        border-bottom: 1px dashed #b7b7b7;
-        display: flex;
-        align-items: center;
-        .imgbox{
-          width: 1.16rem;
-          height: 1.16rem;
-          background: url("../img/ingbg.png") no-repeat ;
-          background-size: cover;
-          position: relative;
+      a{
+        display: block;
+        li{
 
-            #imgname{
-              width: 90%;
-              height: 90%;
+          width: 100%;
+          height: 1.5rem;
+          border-bottom: 1px dashed #b7b7b7;
+          display: flex;
+          align-items: center;
+          .imgbox{
+            width: 1.16rem;
+            height: 1.16rem;
+            background: url("../img/ingbg.png") no-repeat center;
+            background-size: contain;
+            position: relative;
+            .imgboxl{
+              width: 1.1rem;
+              height: 1.1rem;
               border-radius: 0.2rem;
               position: absolute;
               top: 0;
@@ -73,39 +88,43 @@ $bgcolor:-webkit-linear-gradient(0deg,#fc3790,#fb37c9);
               margin-top: auto;
               margin-bottom: auto;
               left: 0;
+              overflow: hidden;
+              #imgname{
+                width: 1.10rem;
+              }
             }
-
-
+          }
+          .text{
+            margin-left: 0.4rem;
+            p:first-child{
+              font-size: 0.26rem;
+              color: #58606d;
+            }
+            p:last-child{
+              font-size: 0.24rem;
+              color: #c6c6c6;
+            }
+          }
+          .icon{
+            width: auto;
+            height: auto;
+            margin-left: 1.8rem;
+            img{
+              display: block;
+              width: 0.47rem;
+              height: 0.47rem;
+              float: left;
+            }
+            img:last-child{
+              margin-left: 0.35rem;
+            }
+          }
         }
-        .text{
-          margin-left: 0.4rem;
-          p:first-child{
-            font-size: 0.26rem;
-            color: #58606d;
-          }
-          p:last-child{
-            font-size: 0.24rem;
-            color: #c6c6c6;
-          }
-        }
-        .icon{
-          width: auto;
-          height: auto;
-          margin-left: 1.8rem;
-          img{
-            display: block;
-            width: 0.47rem;
-            height: 0.47rem;
-            float: left;
-          }
-          img:last-child{
-            margin-left: 0.35rem;
-          }
+        li:last-child{
+          border-bottom: none;
         }
       }
-      li:last-child{
-        border-bottom: none;
-      }
+
     }
   }
 }
